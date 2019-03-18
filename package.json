@@ -4,15 +4,24 @@
   "description": "Creates a builder pattern for NodeJS using ES6 proxy.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "mocha ./index.spec.js"
   },
   "keywords": [
     "build",
     "patterns",
     "nodejs",
-    "javascript"
+    "javascript",
+    "proxy",
+    "ES6"
   ],
+  "devDependencies": {
+    "chai": "4.2.0",
+    "codecov": "3.0.0",
+    "istanbul": "0.4.5",
+    "mocha": "6.0.2",
+    "sinon": "7.2.7"
+  },
   "author": "Leonardo Lewandowski <leolewan@gmail.com>",
   "license": "MIT"
 }

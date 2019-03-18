@@ -1,7 +1,7 @@
-const Provider = require('./provider/provider');
-const Listener = require('./listener/listener');
+const Builder = require('./src/builder');
+const BuilderType = require('./src/builderType');
 
 module.exports = {
-  Provider,
-  Listener,
+  Builder,
+  BuilderType,
 };
