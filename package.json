@@ -18,8 +18,8 @@
     "url": "git+https://github.com/llewan/carpenter.git"
   },
   "keywords": [
-    "build",
-    "patterns",
+    "builder",
+    "pattern",
     "nodejs",
     "javascript",
     "proxy",
