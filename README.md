@@ -3,7 +3,7 @@ Creates a builder pattern for NodeJS using ES6 proxy.
 
 ## Installation
 ```
-npm install --save carpenter
+npm install --save carpenter-nodejs
 ```
 
 And then import it:
