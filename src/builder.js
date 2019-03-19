@@ -17,10 +17,12 @@ function Builder(aTemplate) {
         if (!aTemplate.hasOwnProperty(prop)) {
           throw new Error(`${prop} is not a valid field`)
         }
-        const valueDataType = Array.isArray(value) ? 'array' : typeof value;
+        const preciseType = Array.isArray(value) ? 'array' : typeof value;
 
-        if (aTemplate[prop] !== valueDataType) {
-          throw new Error(`${prop} expects a ${aTemplate[prop]} data type and ${valueDataType} is being received`);
+        if (aTemplate[prop] !== preciseType) {
+          throw new Error(
+            `Invalid error \`${prop}\` of type \`${preciseType}\` supplied to Builder, expected \`${aTemplate[prop]}\`.`
+          );
         }
 
         built[prop] = value;
