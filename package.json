@@ -1,6 +1,6 @@
 {
   "name": "carpenter-nodejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Creates a builder pattern for NodeJS using ES6 proxy.",
   "main": "index.js",
   "scripts": {
