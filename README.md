@@ -1,4 +1,4 @@
-# Carpenter [![npm version](https://img.shields.io/npm/v/carpenter.svg)](https://www.npmjs.com/package/carpenter) [![license type](https://img.shields.io/npm/l/carpenter.svg)](https://github.com/llewan/carpenter.git/blob/master/LICENSE) [![codecov](https://codecov.io/gh/llewan/carpenter/branch/develop/graph/badge.svg)](https://codecov.io/gh/llewan/carpenter)
+# Carpenter [![npm version](https://img.shields.io/npm/v/carpenter.svg)](https://www.npmjs.com/package/carpenter-nodejs) [![license type](https://img.shields.io/npm/l/carpenter.svg)](https://github.com/llewan/carpenter.git/blob/master/LICENSE) [![codecov](https://codecov.io/gh/llewan/carpenter/branch/develop/graph/badge.svg)](https://codecov.io/gh/llewan/carpenter)
 Creates a builder pattern for NodeJS using ES6 proxy.
 
 ## Installation
@@ -32,7 +32,7 @@ const built = Builder(template)
       .build();
 ```
 
-###Note
+### Note
 - It accepts the build function on camelCase as well
 
 
