@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha ./index.spec.js"
+    "test": "NODE_ENV=test istanbul cover _mocha -- --opts .mocharc",
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
   },
   "keywords": [
     "build",
