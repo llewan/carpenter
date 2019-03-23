@@ -9,11 +9,10 @@ npm install --save carpenter-nodejs
 And then import it:
 ```
 // ES6 modules
-import { Builder, BuilderType } from 'rex-react';
+import { Builder, BuilderType } from 'carpenter-nodejs';
 
 // commonjs
-const Builder = require('carpenter').Builder;
-const BuilderType = require('carpenter').BuilderType;
+const { Builder, BuilderType } = require('carpenter-nodejs');
 ```
 
 ## Usage
