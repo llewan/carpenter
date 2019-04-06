@@ -1,13 +1,13 @@
 {
   "name": "carpenter-nodejs",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Creates a builder pattern for NodeJS using ES6 proxy.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "NODE_ENV=test istanbul cover _mocha -- --opts .mocharc",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "lint": "eslint index.js index.spec.js ./src --fix"
+    "lint": "eslint index.js index.spec.js ./src/* --fix"
   },
   "files": [
     "index.js",
