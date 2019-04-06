@@ -2,9 +2,9 @@ function Builder(aTemplate) {
   const built = {};
 
   const getPrimitiveDataType = (aValue) => {
-      if (Array.isArray(aValue)) return 'array';
-      if (aValue.constructor == RegExp) return 'regexp';
-      return typeof aValue;
+    if (Array.isArray(aValue)) return 'array';
+    if (aValue.constructor == RegExp) return 'regexp';
+    return typeof aValue;
   };
 
   const builder = new Proxy({}, {

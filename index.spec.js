@@ -52,9 +52,9 @@ describe('Builder', () => {
         validate: BuilderType.regexp,
       };
       const built = Builder(template)
-      .name('Leo')
-      .validate(/^foo(bar)?$/)
-      .build();
+        .name('Leo')
+        .validate(/^foo(bar)?$/)
+        .build();
 
       const expected = {
         name: 'Leo',
@@ -71,10 +71,10 @@ describe('Builder', () => {
         isCool: BuilderType.boolean,
       };
       const built = Builder(template)
-      .name('Leo')
-      .validate(/^foo(bar)?$/)
-      .isCool(true)
-      .build();
+        .name('Leo')
+        .validate(/^foo(bar)?$/)
+        .isCool(true)
+        .build();
 
       const expected = {
         name: 'Leo',
@@ -130,9 +130,9 @@ describe('Builder', () => {
         address: BuilderType.object,
       };
       const built = () => Builder(template)
-      .name('Leo')
-      .address([])
-      .build();
+        .name('Leo')
+        .address([])
+        .build();
 
       assert.throws(built, 'Invalid error `address` of type `array` supplied to Builder, expected `object`.')
     });
