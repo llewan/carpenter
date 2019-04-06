@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "NODE_ENV=test istanbul cover _mocha -- --opts .mocharc",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "lint": "eslint index.js index.spec.js ./src --fix"
+    "lint": "eslint index.js index.spec.js ./src/* --fix"
   },
   "files": [
     "index.js",
