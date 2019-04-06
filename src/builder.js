@@ -2,7 +2,7 @@ function Builder(aTemplate) {
   const built = {};
 
   const builder = new Proxy({}, {
-    get(target, propKey, receiver) {
+    get(target, propKey) {
       let prop = propKey;
 
       if (!aTemplate.hasOwnProperty(prop)) {

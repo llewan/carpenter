@@ -1,5 +1,6 @@
 const expect = require('chai').expect;
 const assert = require('chai').assert;
+const { describe, it } = require('mocha');
 const { Builder, BuilderType } = require('./index');
 
 describe('Builder', () => {
