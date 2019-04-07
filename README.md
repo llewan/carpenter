@@ -1,4 +1,4 @@
-# Carpenter [![npm version](https://img.shields.io/npm/v/carpenter.svg)](https://www.npmjs.com/package/carpenter-nodejs) [![license type](https://img.shields.io/npm/l/carpenter.svg)](https://github.com/llewan/carpenter.git/blob/master/LICENSE) [![codecov](https://img.shields.io/codecov/c/github/llewan/carpenter.svg)](https://codecov.io/gh/llewan/carpenter) [![Build Status](https://travis-ci.org/llewan/carpenter.svg?branch=master)](https://travis-ci.org/llewan/carpenter)
+# Carpenter [![npm version](https://img.shields.io/npm/v/carpenter.svg)](https://www.npmjs.com/package/carpenter-nodejs) [![license type](https://img.shields.io/npm/l/carpenter.svg)](https://github.com/llewan/carpenter.git/blob/master/LICENSE) [![codecov](https://img.shields.io/codecov/c/github/llewan/carpenter.svg)](https://codecov.io/gh/llewan/carpenter) 
 Creates a builder pattern for NodeJS using ES6 proxy.
 
 ## Installation
